@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You A</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="content">
+        <h2>Vin Sent You a Message!!!</h2> 
+        <img src="purpleenvelop.png" alt="Envelope Image">
+        <p id="typingParagraph"></p>
+        
+        <div class="buttons">
+            <button id="teleportButton">Decline</button>
+            <button onclick="window.location.href='message.html'">Accept</button>
+        </div>
+    </div>
+
+    <div class="modal" id="gifModal">
+        <span class="close" id="closeModal">&times;</span>
+        <img src="please-please-please.gif" alt="Decline GIF" class="modal-content">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
